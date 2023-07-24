@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 8</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+    <main>
+        <div class="div1">
+            <h2>Registro de OSAMH (Obra Social de Alumnos de MindHub)</h2>
+            <p>Tel: <a href="tel:+34000000000">2215554040</a></p>
+            <p>Email: <a href="mailto:email@example.com">osamh@hub.com</a></p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52343.03824070577!2d-57.988189785609485!3d-34.92050317677971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e62b1f0085a1%3A0xbcfc44f0547312e3!2sLa%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1689902956272!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="div2">
+            <form action="./assets/pages/show_data.html" method="get" target="_blank" class="form">
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ej: Nazareno">
+                </fieldset>
+                <fieldset>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Ej: Ramos">
+                </fieldset>
+                <fieldset>
+                    <label for="fecha-nac">Fecha de nacimiento:</label>
+                    <input type="month" name="fecha-nac" id="fecha" value="Edad">
+                </fieldset>
+                <fieldset>
+                    <label for="telefono">Numero de telefono:</label>
+                    <input type="text" name="telefono" id="telefono">
+                </fieldset>
+                <fieldset>
+                    <label for="direccion">Direccion:</label>
+                    <input type="text" name="direccion" id="direccion" placeholder="Calle">
+                    <input type="text" name="direc-num" id="direccion" placeholder="Numero">
+                </fieldset>
+                <fieldset>
+                    <label for="pais">Pais de origen:</label>
+                    <select name="pais" id="pais">
+                        <option value="">--Elija una opcion--</option>
+                        <option value="Arg">Argentina</option>
+                        <option value="Chi">Chile</option>
+                        <option value="Bra">Brasil</option>
+                        <option value="Col">Colombia</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Ocupacion:</legend>
+                    <label for="ocupacion">Estudiante</label>
+                    <input type="checkbox" id="ocupacion" name="ocupacion1" value="Estudiante">
+                    <label for="ocupacion">Empleado</label>
+                    <input type="checkbox" id="ocupacion" name="ocupacion2" value="Empleado">
+                    <label for="ocupacion">Ninguna de las anteriores</label>
+                    <input type="checkbox" id="ocupacion" name="ocupacion3" value="Desocupado">
+                </fieldset>
+                <fieldset>
+                    <input type="submit">
+                </fieldset>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

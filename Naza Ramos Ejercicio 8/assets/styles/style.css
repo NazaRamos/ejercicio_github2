@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+}
+fieldset{
+    padding: 1em 0em;
+}
+/* .div2{
+    display: flex;
+    height: 100%;
+    align-self: center;
+}
+.form{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+} */
+h2{
+    padding-bottom: 1em;
+}
+p{
+    font-size: larger;
+    padding-bottom: 1em;
+}

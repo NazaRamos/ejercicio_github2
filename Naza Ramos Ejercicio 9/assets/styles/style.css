@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 1px solid black;
+    font-style: oblique;
+}
+body{
+    background-color: rgb(253, 190, 72);
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+h1{
+    font-size: 1.5em;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+}
+.div1{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 0.5em;
+    gap: 0.5em;
+}
+iframe{
+    width: 90%;
+    height: 40%;
+}
+.div1 p{
+    align-self: flex-start;
+    width: 100%;
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    
+}
+@media (min-width:768px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        outline: none;
+        font-style: normal;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    h1{
+        font-size: 2em;
+    }
+    body{
+        background-color: rgb(124, 124, 124);
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+    }
+    .div1{
+        text-align: center;
+    }
+    h1{
+        text-decoration: underline;
+    }
+    .div2{
+        display: flex;
+        flex-direction: column;
+    }
+    form{
+        width: 50%;
+        align-self: center;
+    }
+}
+@media (min-width:1024px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        outline: outset;
+        font-style: normal;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    body{
+        background-color: rgb(250, 113, 113);
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        font-size: 3em;
+        text-align: center;
+        padding: 1em;
+    }
+    .div1 p{
+        font-size: 1.5em;
+    }
+    iframe{
+        width: 40%;
+        height: 40%;
+    }
+    .div2{
+        width: 60%;
+        display: flex;
+        align-self: center;
+    }
+    form{
+        width: 100%;
+    }
+}
